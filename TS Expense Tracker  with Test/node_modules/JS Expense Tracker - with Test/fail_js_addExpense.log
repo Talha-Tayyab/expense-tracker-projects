@@ -1,0 +1,29 @@
+
+> js-new-learning-copy@1.0.0 test
+> jest tests/addExpense.test.js
+
+FAIL tests/addExpense.test.js
+  addExpenseToList() failing test
+    ✕ fails on purpose (2 ms)
+
+  ● addExpenseToList() failing test › fails on purpose
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 99
+    Received: 2
+
+      11 |
+      12 |     // This will fail because length is actually 2, not 99
+    > 13 |     expect(next.length).toBe(99);
+         |                         ^
+      14 |   });
+      15 | });
+
+      at Object.toBe (tests/addExpense.test.js:13:25)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.112 s, estimated 1 s
+Ran all test suites matching /tests\/addExpense.test.js/i.

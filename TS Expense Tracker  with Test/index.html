@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="data:," />
+  <title>Expense Tracker – TypeScript</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Load Chart.js first so it's available to modules -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>💰 Expense Tracker – TypeScript Version</h1>
+      <p>Tracker App</p>
+    </div>
+
+    <div class="summary">
+      <div>
+        <div>Total Expenses</div>
+        <div class="total-amount" id="totalAmount">$0.00</div>
+      </div>
+      <div>
+        <div>Total Count</div>
+        <div class="total-amount" id="totalCount">0</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Add New Expense</h2>
+      <form id="expenseForm">
+        <div class="form-group">
+          <label for="amount">Amount ($)</label>
+          <input type="number" id="amount" step="0.01" min="0" required />
+          <div class="error" id="amountError">Please enter a valid amount</div>
+        </div>
+
+        <div class="form-group">
+          <label for="category">Category</label>
+          <select id="category" required>
+            <option value="">Select a category</option>
+            <option value="food">🍽️ Food & Dining</option>
+            <option value="transport">🚗 Transportation</option>
+            <option value="shopping">🛍️ Shopping</option>
+            <option value="entertainment">🎬 Entertainment</option>
+            <option value="bills">📄 Bills & Utilities</option>
+            <option value="health">🏥 Healthcare</option>
+            <option value="other">📦 Other</option>
+          </select>
+          <div class="error" id="categoryError">Please select a category</div>
+        </div>
+
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input type="date" id="date" required />
+          <div class="error" id="dateError">Please select a valid date</div>
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description</label>
+          <textarea id="description" rows="3" placeholder="Enter expense description..."></textarea>
+          <div class="error" id="descriptionError">Description is too long</div>
+        </div>
+
+        <button type="submit" class="btn" id="submitBtn">Add Expense</button>
+      </form>
+    </div>
+
+    <div class="card expense-list">
+      <h2>Your Expenses</h2>
+
+      <!-- Mobile Filter Toggle -->
+      <button class="filter-toggle" id="filterToggle">🔍 Show Filters</button>
+
+      <!-- Advanced Filter Section -->
+      <div class="filter-section" id="filterSection">
+        <div class="filter-row">
+          <div class="filter-group">
+            <label>Search Expenses</label>
+            <div class="search-box">
+              <span class="search-icon">🔍</span>
+              <input type="text" id="searchInput" placeholder="Search by amount, category, or description..." />
+            </div>
+          </div>
+          <div class="filter-group">
+            <label>Date Range</label>
+            <div class="range-container">
+              <input type="date" id="dateFrom" class="range-input" />
+              <span>to</span>
+              <input type="date" id="dateTo" class="range-input" />
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-group">
+            <label>Amount Range</label>
+            <div class="range-container">
+              <input type="range" id="minAmount" min="0" max="1000000" value="0" class="range-input" />
+              <span class="range-value" id="minAmountValue">$0</span>
+              <span>to</span>
+              <input type="range" id="maxAmount" min="0" max="1000000" value="1000000" class="range-input" />
+              <span class="range-value" id="maxAmountValue">$1000000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label>Categories</label>
+          <div class="category-filters" id="categoryFilters"></div>
+        </div>
+
+        <div class="filter-actions">
+          <div class="filter-count" id="filterCount">Showing all expenses</div>
+          <div><button class="btn btn-secondary" id="clearFilters">Clear All Filters</button></div>
+        </div>
+      </div>
+
+      <div id="expensesList">
+        <p style="text-align: center; color: #7f8c8d; padding: 20px;">
+          No expenses added yet. Add your first expense above!
+        </p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top: 30px;">
+      <h2>💰 Budget Management</h2>
+
+      <div style="margin-bottom: 20px;">
+        <label for="monthlyBudget">Monthly Budget ($):</label><br />
+        <input type="number" id="monthlyBudget" placeholder="Enter total monthly budget" />
+        <button class="btn" id="saveMonthlyBudget">Save Monthly Budget</button>
+      </div>
+
+      <hr />
+
+      <div>
+        <label for="budgetCategorySelect">Category:</label><br />
+        <select id="budgetCategorySelect"></select>
+
+        <label for="categoryBudgetLimit">Category Limit ($):</label><br />
+        <input type="number" id="categoryBudgetLimit" placeholder="Enter category limit" />
+        <button class="btn" id="saveCategoryBudget">Save Category Budget</button>
+      </div>
+
+      <div id="budgetOverviewContainer" style="margin-top: 30px;"></div>
+    </div>
+
+    <div class="card">
+      <h2>Category Management</h2>
+
+      <div class="category-stats">
+        <div class="stat-block">
+          <span class="stat-value" id="totalCategories">7</span>
+          <span class="stat-label">Total Categories</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-value" id="mostUsed">---</span>
+          <span class="stat-label">Most Used</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-value" id="highestSpend">---</span>
+          <span class="stat-label">Highest Spend</span>
+        </div>
+      </div>
+
+      <div class="category-grid" id="categoryGrid"></div>
+
+      <div style="margin-top: 20px; display: flex; gap: 10px;">
+        <button class="btn" id="addCategory">+ Add New Category</button>
+        <button class="btn btn-danger" id="deleteCategory">🗑️ Delete Category</button>
+      </div>
+    </div>
+
+    <!-- Category Modal -->
+    <div class="modal" id="categoryModal">
+      <div class="modal__overlay"></div>
+      <div class="modal__content">
+        <div class="modal__header">
+          <h3>Add New Category</h3>
+          <button class="modal__close" id="modalClose">&times;</button>
+        </div>
+
+        <form id="categoryForm" class="category-form">
+          <div class="form-field">
+            <label for="categoryName">Category Name</label>
+            <input type="text" id="categoryName" placeholder="e.g., Transportation" required />
+          </div>
+
+          <div class="form-field">
+            <label for="categoryEmoji">Emoji</label>
+            <input type="text" id="categoryEmoji" placeholder="e.g., 🚗" maxlength="2" required />
+          </div>
+
+          <div class="modal-buttons">
+            <button type="submit" class="btn">Save</button>
+            <button type="button" class="btn btn-danger" id="cancelCategory">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top: 30px;">
+      <h2>📁 Import & Export</h2>
+      <div class="import-export-buttons">
+        <button class="btn btn-primary" id="importData">📥 Import JSON</button>
+        <button class="btn btn-secondary" id="exportData">📤 Export JSON</button>
+        <input type="file" id="importFile" accept=".json" style="display: none;" />
+      </div>
+    </div>
+
+    <!-- Toggle Chart Dashboard -->
+    <div style="text-align: center; margin: 20px 0;">
+      <button id="toggleChartDashboard" class="btn">📊 Toggle Chart Dashboard</button>
+    </div>
+
+    <!-- Chart Dashboard Section -->
+    <div id="chartDashboard" style="display: none;">
+      <div class="card">
+        <h2>📊 Expense Analytics Dashboard</h2>
+        <div style="display: grid; grid-template-columns: 1fr; gap: 40px;">
+          <div class="chart-box"><canvas id="categoryPieChart" width="400" height="400"></canvas></div>
+          <div class="chart-box"><canvas id="monthlyBarChart" width="400" height="400"></canvas></div>
+        </div>
+        <div class="chart-note">📈 Charts update automatically when expenses change.</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Made with ❤️ by <a href="#" target="_blank" rel="noopener">Talha Tayyab</a></p>
+    </div>
+  </div><!-- /container -->
+
+
+  <script type="module" src="dist/app.js"></script>
+</body>
+</html>

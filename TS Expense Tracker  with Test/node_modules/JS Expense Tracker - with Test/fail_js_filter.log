@@ -1,0 +1,38 @@
+
+> js-new-learning-copy@1.0.0 test
+> jest tests/filter.test.js
+
+FAIL tests/filter.test.js
+  filterExpenses()
+    ✕ filters by category and amount range (6 ms)
+
+  ● filterExpenses() › filters by category and amount range
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 1
+
+      Array [
+        Object {
+    -     "amount": 999,
+    +     "amount": 10,
+          "category": "Food",
+        },
+      ]
+
+      10 |
+      11 |     const result = filterExpenses(expenses, 'Food', 0, 20);
+    > 12 |     expect(result).toEqual([{ category: 'Food', amount: 999 }]);
+         |                    ^
+      13 |   });
+      14 | });
+      15 |
+
+      at Object.toEqual (tests/filter.test.js:12:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.2 s, estimated 1 s
+Ran all test suites matching /tests\/filter.test.js/i.

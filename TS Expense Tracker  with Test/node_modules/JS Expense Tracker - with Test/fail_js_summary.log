@@ -1,0 +1,30 @@
+
+> js-new-learning-copy@1.0.0 test
+> jest tests/summary.test.js
+
+FAIL tests/summary.test.js
+  getExpenseSummary()
+    ✕ calculates total amount and count (3 ms)
+
+  ● getExpenseSummary() › calculates total amount and count
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 76
+    Received: 75
+
+       5 |     const expenses = [{ amount: 10 }, { amount: 25 }, { amount: 40 }];
+       6 |     const summary = getExpenseSummary(expenses);
+    >  7 |     expect(summary.totalAmount).toBe(76);
+         |                                 ^
+       8 |     expect(summary.count).toBe(3);
+       9 |   });
+      10 | });
+
+      at Object.toBe (tests/summary.test.js:7:33)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.135 s, estimated 1 s
+Ran all test suites matching /tests\/summary.test.js/i.

@@ -1,0 +1,9 @@
+PASS test/category.test.ts
+  Basic CategoryManager Test
+    ✓ should create and add one category (12 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        2.588 s
+Ran all test suites matching /test\/category.test.ts/i.

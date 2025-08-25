@@ -1,0 +1,34 @@
+
+> js-new-learning-copy@1.0.0 test
+> jest tests/validators.test.js
+
+FAIL tests/validators.test.js
+  isValidAmount()
+    ✓ returns true for valid amount (1 ms)
+    ✕ returns false for invalid amount (1 ms)
+  isValidDescription()
+    ✓ returns true for valid description
+    ✓ returns false for overly long description
+
+  ● isValidAmount() › returns false for invalid amount
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+       6 |   });
+       7 |   test('returns false for invalid amount', () => {
+    >  8 |     expect(isValidAmount(-5)).toBe(true);
+         |                               ^
+       9 |   });
+      10 | });
+      11 |
+
+      at Object.toBe (tests/validators.test.js:8:31)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        0.196 s, estimated 1 s
+Ran all test suites matching /tests\/validators.test.js/i.

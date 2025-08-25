@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expense Tracker - With JavaScript</title>
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1>💰 Expense Tracker - With JavaScript</h1>
+      <p>Tracker App</p>
+    </header>
+
+    <!-- Summary Section -->
+    <section class="summary">
+      <div>
+        <div>Total Expenses</div>
+        <div class="total-amount" id="totalAmount">$0.00</div>
+      </div>
+      <div>
+        <div>Total Count</div>
+        <div class="total-amount" id="totalCount">0</div>
+      </div>
+    </section>
+
+    <!-- Expense Input Form -->
+    <section class="card">
+      <h2>Add New Expense</h2>
+      <form id="expenseForm" novalidate>
+        <div class="form-group">
+          <label for="amount">Amount ($)</label>
+          <input type="number" id="amount" name="amount" step="0.01" min="0" required autocomplete="off" aria-describedby="amountError" />
+          <div class="error" id="amountError" role="alert" aria-live="assertive" hidden>
+            Please enter a valid amount
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="category">Category</label>
+          <select id="category" name="category" required aria-describedby="categoryError">
+            <option value="">Select a category</option>
+            <option value="food">🍽️ Food & Dining</option>
+            <option value="shopping">🛍️ Shopping</option>
+            <option value="entertainment">🎬 Entertainment</option>
+            <option value="bills">📄 Bills & Utilities</option>
+            <option value="health">🏥 Healthcare</option>
+            <option value="other">📦 Other</option>
+          </select>
+          <div class="error" id="categoryError" role="alert" aria-live="assertive" hidden>
+            Please select a category
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required aria-describedby="dateError" />
+          <div class="error" id="dateError" role="alert" aria-live="assertive" hidden>
+            Please select a valid date
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description</label>
+          <textarea id="description" name="description" rows="3" placeholder="Enter expense description..." maxlength="200" aria-describedby="descriptionError"></textarea>
+          <div class="error" id="descriptionError" role="alert" aria-live="assertive" hidden>
+            Description is too long
+          </div>
+        </div>
+
+        <button type="submit" class="btn" id="submitBtn">Add Expense</button>
+      </form>
+    </section>
+
+    <!-- Expense List & Filters -->
+    <section class="card expense-list">
+      <h2>Your Expenses</h2>
+      <button class="filter-toggle" id="filterToggle" aria-label="Show Filters">🔍 Show Filters</button>
+      <div class="filter-section" id="filterSection">
+        <div class="filter-row">
+          <div class="filter-group">
+            <label for="searchInput">Search Expenses</label>
+            <div class="search-box">
+              <input type="text" id="searchInput" placeholder="Search by category, or description..." />
+            </div>
+          </div>
+          <div class="filter-group">
+            <label>Date Range</label>
+            <div class="range-container">
+              <input type="date" id="dateFrom" class="range-input" />
+              <span>To</span>
+              <input type="date" id="dateTo" class="range-input" />
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-group">
+            <label>Amount Range</label>
+            <div class="range-container">
+              <input type="range" id="minAmount" min="0" max="1000" value="0" class="range-input" />
+              <span class="range-value" id="minAmountValue">$0</span>
+              <span>To</span>
+              <input type="range" id="maxAmount" min="0" max="1000" value="1000" class="range-input" />
+              <span class="range-value" id="maxAmountValue">$1000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label>Categories</label>
+          <div class="category-filters" id="categoryFilters"></div>
+        </div>
+
+        <div class="filter-actions">
+          <div class="filter-count" id="filterCount">Showing all expenses</div>
+          <div>
+            <button class="btn btn-secondary" id="clearFilters">Clear All Filters</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="expensesList">
+        <p style="text-align: center; color: #d61515; padding: 20px;">No expenses added yet. Add your first expense above!</p>
+      </div>
+    </section>
+
+    <!-- Category Management -->
+    <section class="card">
+      <h2>Category Management</h2>
+      <div class="category-stats">
+        <div class="stat-block">
+          <span class="stat-value" id="totalCategories"></span>
+          <span class="stat-label">Total Categories</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-value" id="mostUsed"></span>
+          <span class="stat-label">Most Used</span>
+        </div>
+        <div class="stat-block">
+          <span class="stat-value" id="highestSpend"></span>
+          <span class="stat-label">Highest Spend</span>
+        </div>
+      </div>
+      <div class="category-grid" id="categoryGrid"></div>
+      <div style="margin-top: 30px; display: flex; gap: 300px;">
+        <button class="btn" id="addCategory">+ Add New Category</button>
+        <button class="btn btn-danger" id="deleteCategory">🗑️ Delete Category</button>
+      </div>
+    </section>
+
+    <!-- Category Modal -->
+    <div class="category-modal" id="categoryModal" aria-modal="true" role="dialog">
+      <div class="modal-content">
+        <div class="modal__header">
+          <h3>Add New Category</h3>
+          <button class="modal__close" id="modalClose" aria-label="Close">&times;</button>
+        </div>
+        <form id="categoryForm" class="category-form">
+          <div class="form-field">
+            <label for="categoryName">Category Name</label>
+            <input type="text" id="categoryName" placeholder="e.g., Transportation" required />
+          </div>
+          <div class="form-field">
+            <label for="categoryEmoji">Emoji</label>
+            <input type="text" id="categoryEmoji" placeholder="e.g., 🚗" maxlength="2" required />
+          </div>
+          <div class="modal-buttons">
+            <button type="submit" class="btn">Save</button>
+            <button type="button" class="btn btn-danger" id="cancelCategory">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="src/app.js" defer></script>
+</body>
+</html>
