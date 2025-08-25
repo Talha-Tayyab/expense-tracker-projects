@@ -1,0 +1,2104 @@
+{
+  "expenses": [
+    {
+      "id": "seed-1",
+      "amount": 278.13,
+      "category": "bills",
+      "date": "2025-07-22",
+      "description": "Load test expense 1"
+    },
+    {
+      "id": "seed-2",
+      "amount": 145.37,
+      "category": "health",
+      "date": "2025-07-31",
+      "description": "Load test expense 2"
+    },
+    {
+      "id": "seed-3",
+      "amount": 181.66,
+      "category": "food",
+      "date": "2025-07-29",
+      "description": "Load test expense 3"
+    },
+    {
+      "id": "seed-4",
+      "amount": 418.34,
+      "category": "shopping",
+      "date": "2025-07-26",
+      "description": "Load test expense 4"
+    },
+    {
+      "id": "seed-5",
+      "amount": 37.8,
+      "category": "bills",
+      "date": "2025-08-11",
+      "description": "Load test expense 5"
+    },
+    {
+      "id": "seed-6",
+      "amount": 64.13,
+      "category": "entertainment",
+      "date": "2025-07-31",
+      "description": "Load test expense 6"
+    },
+    {
+      "id": "seed-7",
+      "amount": 38.85,
+      "category": "food",
+      "date": "2025-08-12",
+      "description": "Load test expense 7"
+    },
+    {
+      "id": "seed-8",
+      "amount": 24.41,
+      "category": "health",
+      "date": "2025-07-27",
+      "description": "Load test expense 8"
+    },
+    {
+      "id": "seed-9",
+      "amount": 190.97,
+      "category": "other",
+      "date": "2025-07-20",
+      "description": "Load test expense 9"
+    },
+    {
+      "id": "seed-10",
+      "amount": 165.97,
+      "category": "transport",
+      "date": "2025-07-25",
+      "description": "Load test expense 10"
+    },
+    {
+      "id": "seed-11",
+      "amount": 352.74,
+      "category": "transport",
+      "date": "2025-08-03",
+      "description": "Load test expense 11"
+    },
+    {
+      "id": "seed-12",
+      "amount": 281.5,
+      "category": "transport",
+      "date": "2025-08-03",
+      "description": "Load test expense 12"
+    },
+    {
+      "id": "seed-13",
+      "amount": 262.27,
+      "category": "bills",
+      "date": "2025-07-30",
+      "description": "Load test expense 13"
+    },
+    {
+      "id": "seed-14",
+      "amount": 241.37,
+      "category": "entertainment",
+      "date": "2025-07-19",
+      "description": "Load test expense 14"
+    },
+    {
+      "id": "seed-15",
+      "amount": 84.42,
+      "category": "food",
+      "date": "2025-08-03",
+      "description": "Load test expense 15"
+    },
+    {
+      "id": "seed-16",
+      "amount": 351.32,
+      "category": "bills",
+      "date": "2025-07-23",
+      "description": "Load test expense 16"
+    },
+    {
+      "id": "seed-17",
+      "amount": 178.0,
+      "category": "food",
+      "date": "2025-08-13",
+      "description": "Load test expense 17"
+    },
+    {
+      "id": "seed-18",
+      "amount": 80.32,
+      "category": "health",
+      "date": "2025-07-29",
+      "description": "Load test expense 18"
+    },
+    {
+      "id": "seed-19",
+      "amount": 88.33,
+      "category": "health",
+      "date": "2025-07-21",
+      "description": "Load test expense 19"
+    },
+    {
+      "id": "seed-20",
+      "amount": 175.97,
+      "category": "other",
+      "date": "2025-07-25",
+      "description": "Load test expense 20"
+    },
+    {
+      "id": "seed-21",
+      "amount": 124.32,
+      "category": "shopping",
+      "date": "2025-08-13",
+      "description": "Load test expense 21"
+    },
+    {
+      "id": "seed-22",
+      "amount": 325.25,
+      "category": "shopping",
+      "date": "2025-07-19",
+      "description": "Load test expense 22"
+    },
+    {
+      "id": "seed-23",
+      "amount": 209.36,
+      "category": "other",
+      "date": "2025-08-10",
+      "description": "Load test expense 23"
+    },
+    {
+      "id": "seed-24",
+      "amount": 293.56,
+      "category": "bills",
+      "date": "2025-07-20",
+      "description": "Load test expense 24"
+    },
+    {
+      "id": "seed-25",
+      "amount": 259.52,
+      "category": "food",
+      "date": "2025-08-11",
+      "description": "Load test expense 25"
+    },
+    {
+      "id": "seed-26",
+      "amount": 42.68,
+      "category": "shopping",
+      "date": "2025-08-07",
+      "description": "Load test expense 26"
+    },
+    {
+      "id": "seed-27",
+      "amount": 335.78,
+      "category": "transport",
+      "date": "2025-08-01",
+      "description": "Load test expense 27"
+    },
+    {
+      "id": "seed-28",
+      "amount": 370.9,
+      "category": "entertainment",
+      "date": "2025-07-23",
+      "description": "Load test expense 28"
+    },
+    {
+      "id": "seed-29",
+      "amount": 72.4,
+      "category": "food",
+      "date": "2025-08-08",
+      "description": "Load test expense 29"
+    },
+    {
+      "id": "seed-30",
+      "amount": 37.72,
+      "category": "entertainment",
+      "date": "2025-08-02",
+      "description": "Load test expense 30"
+    },
+    {
+      "id": "seed-31",
+      "amount": 492.26,
+      "category": "other",
+      "date": "2025-07-22",
+      "description": "Load test expense 31"
+    },
+    {
+      "id": "seed-32",
+      "amount": 290.99,
+      "category": "food",
+      "date": "2025-08-11",
+      "description": "Load test expense 32"
+    },
+    {
+      "id": "seed-33",
+      "amount": 172.8,
+      "category": "shopping",
+      "date": "2025-08-13",
+      "description": "Load test expense 33"
+    },
+    {
+      "id": "seed-34",
+      "amount": 140.3,
+      "category": "bills",
+      "date": "2025-07-25",
+      "description": "Load test expense 34"
+    },
+    {
+      "id": "seed-35",
+      "amount": 98.21,
+      "category": "shopping",
+      "date": "2025-07-16",
+      "description": "Load test expense 35"
+    },
+    {
+      "id": "seed-36",
+      "amount": 373.55,
+      "category": "food",
+      "date": "2025-07-19",
+      "description": "Load test expense 36"
+    },
+    {
+      "id": "seed-37",
+      "amount": 362.22,
+      "category": "bills",
+      "date": "2025-07-29",
+      "description": "Load test expense 37"
+    },
+    {
+      "id": "seed-38",
+      "amount": 268.72,
+      "category": "transport",
+      "date": "2025-07-20",
+      "description": "Load test expense 38"
+    },
+    {
+      "id": "seed-39",
+      "amount": 332.49,
+      "category": "shopping",
+      "date": "2025-07-18",
+      "description": "Load test expense 39"
+    },
+    {
+      "id": "seed-40",
+      "amount": 171.59,
+      "category": "health",
+      "date": "2025-07-22",
+      "description": "Load test expense 40"
+    },
+    {
+      "id": "seed-41",
+      "amount": 222.37,
+      "category": "shopping",
+      "date": "2025-07-21",
+      "description": "Load test expense 41"
+    },
+    {
+      "id": "seed-42",
+      "amount": 232.57,
+      "category": "other",
+      "date": "2025-08-11",
+      "description": "Load test expense 42"
+    },
+    {
+      "id": "seed-43",
+      "amount": 56.04,
+      "category": "entertainment",
+      "date": "2025-07-27",
+      "description": "Load test expense 43"
+    },
+    {
+      "id": "seed-44",
+      "amount": 459.33,
+      "category": "transport",
+      "date": "2025-07-23",
+      "description": "Load test expense 44"
+    },
+    {
+      "id": "seed-45",
+      "amount": 328.3,
+      "category": "food",
+      "date": "2025-07-16",
+      "description": "Load test expense 45"
+    },
+    {
+      "id": "seed-46",
+      "amount": 497.42,
+      "category": "health",
+      "date": "2025-07-31",
+      "description": "Load test expense 46"
+    },
+    {
+      "id": "seed-47",
+      "amount": 291.99,
+      "category": "bills",
+      "date": "2025-07-18",
+      "description": "Load test expense 47"
+    },
+    {
+      "id": "seed-48",
+      "amount": 133.75,
+      "category": "transport",
+      "date": "2025-07-28",
+      "description": "Load test expense 48"
+    },
+    {
+      "id": "seed-49",
+      "amount": 95.19,
+      "category": "food",
+      "date": "2025-07-16",
+      "description": "Load test expense 49"
+    },
+    {
+      "id": "seed-50",
+      "amount": 215.06,
+      "category": "transport",
+      "date": "2025-08-06",
+      "description": "Load test expense 50"
+    },
+    {
+      "id": "seed-51",
+      "amount": 396.61,
+      "category": "transport",
+      "date": "2025-07-18",
+      "description": "Load test expense 51"
+    },
+    {
+      "id": "seed-52",
+      "amount": 260.71,
+      "category": "other",
+      "date": "2025-08-04",
+      "description": "Load test expense 52"
+    },
+    {
+      "id": "seed-53",
+      "amount": 66.37,
+      "category": "food",
+      "date": "2025-08-02",
+      "description": "Load test expense 53"
+    },
+    {
+      "id": "seed-54",
+      "amount": 222.15,
+      "category": "other",
+      "date": "2025-07-29",
+      "description": "Load test expense 54"
+    },
+    {
+      "id": "seed-55",
+      "amount": 77.44,
+      "category": "health",
+      "date": "2025-07-17",
+      "description": "Load test expense 55"
+    },
+    {
+      "id": "seed-56",
+      "amount": 13.3,
+      "category": "food",
+      "date": "2025-07-31",
+      "description": "Load test expense 56"
+    },
+    {
+      "id": "seed-57",
+      "amount": 394.14,
+      "category": "transport",
+      "date": "2025-08-02",
+      "description": "Load test expense 57"
+    },
+    {
+      "id": "seed-58",
+      "amount": 379.27,
+      "category": "other",
+      "date": "2025-08-03",
+      "description": "Load test expense 58"
+    },
+    {
+      "id": "seed-59",
+      "amount": 341.97,
+      "category": "health",
+      "date": "2025-08-07",
+      "description": "Load test expense 59"
+    },
+    {
+      "id": "seed-60",
+      "amount": 342.34,
+      "category": "other",
+      "date": "2025-08-02",
+      "description": "Load test expense 60"
+    },
+    {
+      "id": "seed-61",
+      "amount": 315.55,
+      "category": "transport",
+      "date": "2025-07-31",
+      "description": "Load test expense 61"
+    },
+    {
+      "id": "seed-62",
+      "amount": 205.83,
+      "category": "bills",
+      "date": "2025-07-31",
+      "description": "Load test expense 62"
+    },
+    {
+      "id": "seed-63",
+      "amount": 10.17,
+      "category": "food",
+      "date": "2025-08-06",
+      "description": "Load test expense 63"
+    },
+    {
+      "id": "seed-64",
+      "amount": 270.4,
+      "category": "health",
+      "date": "2025-08-06",
+      "description": "Load test expense 64"
+    },
+    {
+      "id": "seed-65",
+      "amount": 364.43,
+      "category": "transport",
+      "date": "2025-07-16",
+      "description": "Load test expense 65"
+    },
+    {
+      "id": "seed-66",
+      "amount": 428.95,
+      "category": "bills",
+      "date": "2025-08-05",
+      "description": "Load test expense 66"
+    },
+    {
+      "id": "seed-67",
+      "amount": 329.34,
+      "category": "bills",
+      "date": "2025-08-06",
+      "description": "Load test expense 67"
+    },
+    {
+      "id": "seed-68",
+      "amount": 8.04,
+      "category": "entertainment",
+      "date": "2025-08-01",
+      "description": "Load test expense 68"
+    },
+    {
+      "id": "seed-69",
+      "amount": 274.87,
+      "category": "bills",
+      "date": "2025-07-17",
+      "description": "Load test expense 69"
+    },
+    {
+      "id": "seed-70",
+      "amount": 488.66,
+      "category": "entertainment",
+      "date": "2025-08-06",
+      "description": "Load test expense 70"
+    },
+    {
+      "id": "seed-71",
+      "amount": 291.61,
+      "category": "transport",
+      "date": "2025-07-31",
+      "description": "Load test expense 71"
+    },
+    {
+      "id": "seed-72",
+      "amount": 15.62,
+      "category": "other",
+      "date": "2025-08-02",
+      "description": "Load test expense 72"
+    },
+    {
+      "id": "seed-73",
+      "amount": 149.14,
+      "category": "other",
+      "date": "2025-08-03",
+      "description": "Load test expense 73"
+    },
+    {
+      "id": "seed-74",
+      "amount": 399.48,
+      "category": "shopping",
+      "date": "2025-07-16",
+      "description": "Load test expense 74"
+    },
+    {
+      "id": "seed-75",
+      "amount": 430.45,
+      "category": "transport",
+      "date": "2025-08-10",
+      "description": "Load test expense 75"
+    },
+    {
+      "id": "seed-76",
+      "amount": 181.97,
+      "category": "entertainment",
+      "date": "2025-07-28",
+      "description": "Load test expense 76"
+    },
+    {
+      "id": "seed-77",
+      "amount": 313.35,
+      "category": "food",
+      "date": "2025-08-01",
+      "description": "Load test expense 77"
+    },
+    {
+      "id": "seed-78",
+      "amount": 220.21,
+      "category": "food",
+      "date": "2025-07-25",
+      "description": "Load test expense 78"
+    },
+    {
+      "id": "seed-79",
+      "amount": 484.4,
+      "category": "health",
+      "date": "2025-08-06",
+      "description": "Load test expense 79"
+    },
+    {
+      "id": "seed-80",
+      "amount": 356.72,
+      "category": "health",
+      "date": "2025-07-24",
+      "description": "Load test expense 80"
+    },
+    {
+      "id": "seed-81",
+      "amount": 488.68,
+      "category": "other",
+      "date": "2025-08-05",
+      "description": "Load test expense 81"
+    },
+    {
+      "id": "seed-82",
+      "amount": 364.37,
+      "category": "health",
+      "date": "2025-08-01",
+      "description": "Load test expense 82"
+    },
+    {
+      "id": "seed-83",
+      "amount": 408.54,
+      "category": "bills",
+      "date": "2025-07-30",
+      "description": "Load test expense 83"
+    },
+    {
+      "id": "seed-84",
+      "amount": 490.69,
+      "category": "bills",
+      "date": "2025-08-11",
+      "description": "Load test expense 84"
+    },
+    {
+      "id": "seed-85",
+      "amount": 342.19,
+      "category": "transport",
+      "date": "2025-08-11",
+      "description": "Load test expense 85"
+    },
+    {
+      "id": "seed-86",
+      "amount": 234.36,
+      "category": "transport",
+      "date": "2025-07-18",
+      "description": "Load test expense 86"
+    },
+    {
+      "id": "seed-87",
+      "amount": 293.16,
+      "category": "entertainment",
+      "date": "2025-08-04",
+      "description": "Load test expense 87"
+    },
+    {
+      "id": "seed-88",
+      "amount": 328.9,
+      "category": "bills",
+      "date": "2025-08-11",
+      "description": "Load test expense 88"
+    },
+    {
+      "id": "seed-89",
+      "amount": 33.82,
+      "category": "health",
+      "date": "2025-07-29",
+      "description": "Load test expense 89"
+    },
+    {
+      "id": "seed-90",
+      "amount": 299.32,
+      "category": "shopping",
+      "date": "2025-08-09",
+      "description": "Load test expense 90"
+    },
+    {
+      "id": "seed-91",
+      "amount": 149.02,
+      "category": "shopping",
+      "date": "2025-08-11",
+      "description": "Load test expense 91"
+    },
+    {
+      "id": "seed-92",
+      "amount": 438.01,
+      "category": "other",
+      "date": "2025-08-11",
+      "description": "Load test expense 92"
+    },
+    {
+      "id": "seed-93",
+      "amount": 210.8,
+      "category": "other",
+      "date": "2025-07-28",
+      "description": "Load test expense 93"
+    },
+    {
+      "id": "seed-94",
+      "amount": 117.97,
+      "category": "other",
+      "date": "2025-07-29",
+      "description": "Load test expense 94"
+    },
+    {
+      "id": "seed-95",
+      "amount": 115.53,
+      "category": "shopping",
+      "date": "2025-08-11",
+      "description": "Load test expense 95"
+    },
+    {
+      "id": "seed-96",
+      "amount": 286.47,
+      "category": "health",
+      "date": "2025-08-10",
+      "description": "Load test expense 96"
+    },
+    {
+      "id": "seed-97",
+      "amount": 358.95,
+      "category": "shopping",
+      "date": "2025-08-03",
+      "description": "Load test expense 97"
+    },
+    {
+      "id": "seed-98",
+      "amount": 462.38,
+      "category": "health",
+      "date": "2025-08-14",
+      "description": "Load test expense 98"
+    },
+    {
+      "id": "seed-99",
+      "amount": 393.28,
+      "category": "shopping",
+      "date": "2025-07-19",
+      "description": "Load test expense 99"
+    },
+    {
+      "id": "seed-100",
+      "amount": 95.43,
+      "category": "food",
+      "date": "2025-08-04",
+      "description": "Load test expense 100"
+    },
+    {
+      "id": "seed-101",
+      "amount": 292.64,
+      "category": "transport",
+      "date": "2025-08-11",
+      "description": "Load test expense 101"
+    },
+    {
+      "id": "seed-102",
+      "amount": 22.73,
+      "category": "shopping",
+      "date": "2025-07-29",
+      "description": "Load test expense 102"
+    },
+    {
+      "id": "seed-103",
+      "amount": 77.03,
+      "category": "entertainment",
+      "date": "2025-08-11",
+      "description": "Load test expense 103"
+    },
+    {
+      "id": "seed-104",
+      "amount": 162.55,
+      "category": "food",
+      "date": "2025-08-07",
+      "description": "Load test expense 104"
+    },
+    {
+      "id": "seed-105",
+      "amount": 23.65,
+      "category": "other",
+      "date": "2025-08-14",
+      "description": "Load test expense 105"
+    },
+    {
+      "id": "seed-106",
+      "amount": 223.81,
+      "category": "transport",
+      "date": "2025-07-16",
+      "description": "Load test expense 106"
+    },
+    {
+      "id": "seed-107",
+      "amount": 208.7,
+      "category": "bills",
+      "date": "2025-07-29",
+      "description": "Load test expense 107"
+    },
+    {
+      "id": "seed-108",
+      "amount": 44.85,
+      "category": "entertainment",
+      "date": "2025-07-29",
+      "description": "Load test expense 108"
+    },
+    {
+      "id": "seed-109",
+      "amount": 294.01,
+      "category": "transport",
+      "date": "2025-07-21",
+      "description": "Load test expense 109"
+    },
+    {
+      "id": "seed-110",
+      "amount": 486.78,
+      "category": "bills",
+      "date": "2025-08-03",
+      "description": "Load test expense 110"
+    },
+    {
+      "id": "seed-111",
+      "amount": 112.14,
+      "category": "health",
+      "date": "2025-08-06",
+      "description": "Load test expense 111"
+    },
+    {
+      "id": "seed-112",
+      "amount": 250.8,
+      "category": "entertainment",
+      "date": "2025-07-24",
+      "description": "Load test expense 112"
+    },
+    {
+      "id": "seed-113",
+      "amount": 92.86,
+      "category": "entertainment",
+      "date": "2025-07-22",
+      "description": "Load test expense 113"
+    },
+    {
+      "id": "seed-114",
+      "amount": 102.16,
+      "category": "transport",
+      "date": "2025-07-29",
+      "description": "Load test expense 114"
+    },
+    {
+      "id": "seed-115",
+      "amount": 92.23,
+      "category": "other",
+      "date": "2025-07-17",
+      "description": "Load test expense 115"
+    },
+    {
+      "id": "seed-116",
+      "amount": 179.46,
+      "category": "health",
+      "date": "2025-08-06",
+      "description": "Load test expense 116"
+    },
+    {
+      "id": "seed-117",
+      "amount": 299.11,
+      "category": "food",
+      "date": "2025-08-02",
+      "description": "Load test expense 117"
+    },
+    {
+      "id": "seed-118",
+      "amount": 74.32,
+      "category": "entertainment",
+      "date": "2025-07-16",
+      "description": "Load test expense 118"
+    },
+    {
+      "id": "seed-119",
+      "amount": 114.8,
+      "category": "entertainment",
+      "date": "2025-07-23",
+      "description": "Load test expense 119"
+    },
+    {
+      "id": "seed-120",
+      "amount": 49.12,
+      "category": "food",
+      "date": "2025-07-22",
+      "description": "Load test expense 120"
+    },
+    {
+      "id": "seed-121",
+      "amount": 181.29,
+      "category": "transport",
+      "date": "2025-08-09",
+      "description": "Load test expense 121"
+    },
+    {
+      "id": "seed-122",
+      "amount": 331.19,
+      "category": "health",
+      "date": "2025-08-13",
+      "description": "Load test expense 122"
+    },
+    {
+      "id": "seed-123",
+      "amount": 250.79,
+      "category": "shopping",
+      "date": "2025-07-29",
+      "description": "Load test expense 123"
+    },
+    {
+      "id": "seed-124",
+      "amount": 79.47,
+      "category": "other",
+      "date": "2025-08-03",
+      "description": "Load test expense 124"
+    },
+    {
+      "id": "seed-125",
+      "amount": 172.67,
+      "category": "transport",
+      "date": "2025-08-01",
+      "description": "Load test expense 125"
+    },
+    {
+      "id": "seed-126",
+      "amount": 43.76,
+      "category": "transport",
+      "date": "2025-07-23",
+      "description": "Load test expense 126"
+    },
+    {
+      "id": "seed-127",
+      "amount": 69.13,
+      "category": "entertainment",
+      "date": "2025-08-12",
+      "description": "Load test expense 127"
+    },
+    {
+      "id": "seed-128",
+      "amount": 416.05,
+      "category": "bills",
+      "date": "2025-07-29",
+      "description": "Load test expense 128"
+    },
+    {
+      "id": "seed-129",
+      "amount": 344.9,
+      "category": "other",
+      "date": "2025-08-13",
+      "description": "Load test expense 129"
+    },
+    {
+      "id": "seed-130",
+      "amount": 77.78,
+      "category": "transport",
+      "date": "2025-07-29",
+      "description": "Load test expense 130"
+    },
+    {
+      "id": "seed-131",
+      "amount": 292.48,
+      "category": "food",
+      "date": "2025-08-05",
+      "description": "Load test expense 131"
+    },
+    {
+      "id": "seed-132",
+      "amount": 291.24,
+      "category": "health",
+      "date": "2025-07-20",
+      "description": "Load test expense 132"
+    },
+    {
+      "id": "seed-133",
+      "amount": 8.03,
+      "category": "entertainment",
+      "date": "2025-08-01",
+      "description": "Load test expense 133"
+    },
+    {
+      "id": "seed-134",
+      "amount": 230.68,
+      "category": "health",
+      "date": "2025-07-26",
+      "description": "Load test expense 134"
+    },
+    {
+      "id": "seed-135",
+      "amount": 494.04,
+      "category": "health",
+      "date": "2025-07-30",
+      "description": "Load test expense 135"
+    },
+    {
+      "id": "seed-136",
+      "amount": 327.27,
+      "category": "bills",
+      "date": "2025-07-26",
+      "description": "Load test expense 136"
+    },
+    {
+      "id": "seed-137",
+      "amount": 146.42,
+      "category": "bills",
+      "date": "2025-07-24",
+      "description": "Load test expense 137"
+    },
+    {
+      "id": "seed-138",
+      "amount": 246.05,
+      "category": "bills",
+      "date": "2025-07-17",
+      "description": "Load test expense 138"
+    },
+    {
+      "id": "seed-139",
+      "amount": 272.38,
+      "category": "entertainment",
+      "date": "2025-07-17",
+      "description": "Load test expense 139"
+    },
+    {
+      "id": "seed-140",
+      "amount": 168.72,
+      "category": "health",
+      "date": "2025-07-26",
+      "description": "Load test expense 140"
+    },
+    {
+      "id": "seed-141",
+      "amount": 94.46,
+      "category": "entertainment",
+      "date": "2025-08-08",
+      "description": "Load test expense 141"
+    },
+    {
+      "id": "seed-142",
+      "amount": 280.31,
+      "category": "transport",
+      "date": "2025-08-12",
+      "description": "Load test expense 142"
+    },
+    {
+      "id": "seed-143",
+      "amount": 84.86,
+      "category": "entertainment",
+      "date": "2025-07-30",
+      "description": "Load test expense 143"
+    },
+    {
+      "id": "seed-144",
+      "amount": 68.08,
+      "category": "food",
+      "date": "2025-07-17",
+      "description": "Load test expense 144"
+    },
+    {
+      "id": "seed-145",
+      "amount": 488.29,
+      "category": "transport",
+      "date": "2025-07-29",
+      "description": "Load test expense 145"
+    },
+    {
+      "id": "seed-146",
+      "amount": 471.65,
+      "category": "health",
+      "date": "2025-07-18",
+      "description": "Load test expense 146"
+    },
+    {
+      "id": "seed-147",
+      "amount": 263.25,
+      "category": "health",
+      "date": "2025-07-19",
+      "description": "Load test expense 147"
+    },
+    {
+      "id": "seed-148",
+      "amount": 174.2,
+      "category": "transport",
+      "date": "2025-08-08",
+      "description": "Load test expense 148"
+    },
+    {
+      "id": "seed-149",
+      "amount": 245.83,
+      "category": "shopping",
+      "date": "2025-07-27",
+      "description": "Load test expense 149"
+    },
+    {
+      "id": "seed-150",
+      "amount": 424.75,
+      "category": "transport",
+      "date": "2025-07-21",
+      "description": "Load test expense 150"
+    },
+    {
+      "id": "seed-151",
+      "amount": 303.14,
+      "category": "health",
+      "date": "2025-07-20",
+      "description": "Load test expense 151"
+    },
+    {
+      "id": "seed-152",
+      "amount": 297.66,
+      "category": "bills",
+      "date": "2025-07-24",
+      "description": "Load test expense 152"
+    },
+    {
+      "id": "seed-153",
+      "amount": 472.47,
+      "category": "food",
+      "date": "2025-07-21",
+      "description": "Load test expense 153"
+    },
+    {
+      "id": "seed-154",
+      "amount": 264.05,
+      "category": "shopping",
+      "date": "2025-08-07",
+      "description": "Load test expense 154"
+    },
+    {
+      "id": "seed-155",
+      "amount": 188.82,
+      "category": "food",
+      "date": "2025-07-23",
+      "description": "Load test expense 155"
+    },
+    {
+      "id": "seed-156",
+      "amount": 18.34,
+      "category": "bills",
+      "date": "2025-08-04",
+      "description": "Load test expense 156"
+    },
+    {
+      "id": "seed-157",
+      "amount": 259.51,
+      "category": "entertainment",
+      "date": "2025-08-09",
+      "description": "Load test expense 157"
+    },
+    {
+      "id": "seed-158",
+      "amount": 147.88,
+      "category": "health",
+      "date": "2025-07-27",
+      "description": "Load test expense 158"
+    },
+    {
+      "id": "seed-159",
+      "amount": 342.92,
+      "category": "entertainment",
+      "date": "2025-07-26",
+      "description": "Load test expense 159"
+    },
+    {
+      "id": "seed-160",
+      "amount": 440.04,
+      "category": "entertainment",
+      "date": "2025-07-19",
+      "description": "Load test expense 160"
+    },
+    {
+      "id": "seed-161",
+      "amount": 200.36,
+      "category": "entertainment",
+      "date": "2025-07-22",
+      "description": "Load test expense 161"
+    },
+    {
+      "id": "seed-162",
+      "amount": 436.92,
+      "category": "food",
+      "date": "2025-07-21",
+      "description": "Load test expense 162"
+    },
+    {
+      "id": "seed-163",
+      "amount": 80.22,
+      "category": "entertainment",
+      "date": "2025-07-23",
+      "description": "Load test expense 163"
+    },
+    {
+      "id": "seed-164",
+      "amount": 464.74,
+      "category": "transport",
+      "date": "2025-07-17",
+      "description": "Load test expense 164"
+    },
+    {
+      "id": "seed-165",
+      "amount": 443.59,
+      "category": "shopping",
+      "date": "2025-08-04",
+      "description": "Load test expense 165"
+    },
+    {
+      "id": "seed-166",
+      "amount": 26.56,
+      "category": "bills",
+      "date": "2025-07-31",
+      "description": "Load test expense 166"
+    },
+    {
+      "id": "seed-167",
+      "amount": 90.63,
+      "category": "entertainment",
+      "date": "2025-08-13",
+      "description": "Load test expense 167"
+    },
+    {
+      "id": "seed-168",
+      "amount": 203.53,
+      "category": "health",
+      "date": "2025-07-24",
+      "description": "Load test expense 168"
+    },
+    {
+      "id": "seed-169",
+      "amount": 470.03,
+      "category": "shopping",
+      "date": "2025-07-22",
+      "description": "Load test expense 169"
+    },
+    {
+      "id": "seed-170",
+      "amount": 123.44,
+      "category": "other",
+      "date": "2025-07-25",
+      "description": "Load test expense 170"
+    },
+    {
+      "id": "seed-171",
+      "amount": 325.67,
+      "category": "food",
+      "date": "2025-08-09",
+      "description": "Load test expense 171"
+    },
+    {
+      "id": "seed-172",
+      "amount": 240.81,
+      "category": "transport",
+      "date": "2025-07-19",
+      "description": "Load test expense 172"
+    },
+    {
+      "id": "seed-173",
+      "amount": 160.5,
+      "category": "food",
+      "date": "2025-08-10",
+      "description": "Load test expense 173"
+    },
+    {
+      "id": "seed-174",
+      "amount": 376.33,
+      "category": "entertainment",
+      "date": "2025-07-21",
+      "description": "Load test expense 174"
+    },
+    {
+      "id": "seed-175",
+      "amount": 442.96,
+      "category": "health",
+      "date": "2025-07-18",
+      "description": "Load test expense 175"
+    },
+    {
+      "id": "seed-176",
+      "amount": 39.73,
+      "category": "shopping",
+      "date": "2025-07-26",
+      "description": "Load test expense 176"
+    },
+    {
+      "id": "seed-177",
+      "amount": 58.54,
+      "category": "transport",
+      "date": "2025-08-12",
+      "description": "Load test expense 177"
+    },
+    {
+      "id": "seed-178",
+      "amount": 37.48,
+      "category": "other",
+      "date": "2025-08-06",
+      "description": "Load test expense 178"
+    },
+    {
+      "id": "seed-179",
+      "amount": 476.41,
+      "category": "health",
+      "date": "2025-07-19",
+      "description": "Load test expense 179"
+    },
+    {
+      "id": "seed-180",
+      "amount": 148.61,
+      "category": "health",
+      "date": "2025-08-08",
+      "description": "Load test expense 180"
+    },
+    {
+      "id": "seed-181",
+      "amount": 319.24,
+      "category": "food",
+      "date": "2025-07-31",
+      "description": "Load test expense 181"
+    },
+    {
+      "id": "seed-182",
+      "amount": 462.91,
+      "category": "other",
+      "date": "2025-07-29",
+      "description": "Load test expense 182"
+    },
+    {
+      "id": "seed-183",
+      "amount": 291.28,
+      "category": "bills",
+      "date": "2025-07-30",
+      "description": "Load test expense 183"
+    },
+    {
+      "id": "seed-184",
+      "amount": 165.39,
+      "category": "food",
+      "date": "2025-08-05",
+      "description": "Load test expense 184"
+    },
+    {
+      "id": "seed-185",
+      "amount": 378.36,
+      "category": "health",
+      "date": "2025-07-27",
+      "description": "Load test expense 185"
+    },
+    {
+      "id": "seed-186",
+      "amount": 63.76,
+      "category": "food",
+      "date": "2025-07-25",
+      "description": "Load test expense 186"
+    },
+    {
+      "id": "seed-187",
+      "amount": 171.23,
+      "category": "food",
+      "date": "2025-07-30",
+      "description": "Load test expense 187"
+    },
+    {
+      "id": "seed-188",
+      "amount": 28.46,
+      "category": "transport",
+      "date": "2025-07-19",
+      "description": "Load test expense 188"
+    },
+    {
+      "id": "seed-189",
+      "amount": 139.65,
+      "category": "shopping",
+      "date": "2025-08-05",
+      "description": "Load test expense 189"
+    },
+    {
+      "id": "seed-190",
+      "amount": 69.87,
+      "category": "health",
+      "date": "2025-08-10",
+      "description": "Load test expense 190"
+    },
+    {
+      "id": "seed-191",
+      "amount": 489.96,
+      "category": "other",
+      "date": "2025-07-29",
+      "description": "Load test expense 191"
+    },
+    {
+      "id": "seed-192",
+      "amount": 327.3,
+      "category": "bills",
+      "date": "2025-07-28",
+      "description": "Load test expense 192"
+    },
+    {
+      "id": "seed-193",
+      "amount": 72.05,
+      "category": "health",
+      "date": "2025-08-14",
+      "description": "Load test expense 193"
+    },
+    {
+      "id": "seed-194",
+      "amount": 254.77,
+      "category": "entertainment",
+      "date": "2025-08-13",
+      "description": "Load test expense 194"
+    },
+    {
+      "id": "seed-195",
+      "amount": 326.42,
+      "category": "bills",
+      "date": "2025-07-29",
+      "description": "Load test expense 195"
+    },
+    {
+      "id": "seed-196",
+      "amount": 107.21,
+      "category": "other",
+      "date": "2025-07-23",
+      "description": "Load test expense 196"
+    },
+    {
+      "id": "seed-197",
+      "amount": 253.72,
+      "category": "transport",
+      "date": "2025-08-06",
+      "description": "Load test expense 197"
+    },
+    {
+      "id": "seed-198",
+      "amount": 276.94,
+      "category": "food",
+      "date": "2025-07-26",
+      "description": "Load test expense 198"
+    },
+    {
+      "id": "seed-199",
+      "amount": 494.5,
+      "category": "transport",
+      "date": "2025-08-12",
+      "description": "Load test expense 199"
+    },
+    {
+      "id": "seed-200",
+      "amount": 294.1,
+      "category": "shopping",
+      "date": "2025-08-13",
+      "description": "Load test expense 200"
+    },
+    {
+      "id": "seed-201",
+      "amount": 169.49,
+      "category": "other",
+      "date": "2025-07-27",
+      "description": "Load test expense 201"
+    },
+    {
+      "id": "seed-202",
+      "amount": 231.32,
+      "category": "transport",
+      "date": "2025-07-16",
+      "description": "Load test expense 202"
+    },
+    {
+      "id": "seed-203",
+      "amount": 308.7,
+      "category": "transport",
+      "date": "2025-07-17",
+      "description": "Load test expense 203"
+    },
+    {
+      "id": "seed-204",
+      "amount": 110.08,
+      "category": "transport",
+      "date": "2025-08-13",
+      "description": "Load test expense 204"
+    },
+    {
+      "id": "seed-205",
+      "amount": 177.23,
+      "category": "other",
+      "date": "2025-08-01",
+      "description": "Load test expense 205"
+    },
+    {
+      "id": "seed-206",
+      "amount": 288.89,
+      "category": "other",
+      "date": "2025-07-31",
+      "description": "Load test expense 206"
+    },
+    {
+      "id": "seed-207",
+      "amount": 390.33,
+      "category": "bills",
+      "date": "2025-08-03",
+      "description": "Load test expense 207"
+    },
+    {
+      "id": "seed-208",
+      "amount": 239.45,
+      "category": "food",
+      "date": "2025-07-29",
+      "description": "Load test expense 208"
+    },
+    {
+      "id": "seed-209",
+      "amount": 270.73,
+      "category": "transport",
+      "date": "2025-08-06",
+      "description": "Load test expense 209"
+    },
+    {
+      "id": "seed-210",
+      "amount": 95.2,
+      "category": "transport",
+      "date": "2025-07-29",
+      "description": "Load test expense 210"
+    },
+    {
+      "id": "seed-211",
+      "amount": 22.71,
+      "category": "bills",
+      "date": "2025-08-05",
+      "description": "Load test expense 211"
+    },
+    {
+      "id": "seed-212",
+      "amount": 225.48,
+      "category": "shopping",
+      "date": "2025-08-10",
+      "description": "Load test expense 212"
+    },
+    {
+      "id": "seed-213",
+      "amount": 47.49,
+      "category": "bills",
+      "date": "2025-08-05",
+      "description": "Load test expense 213"
+    },
+    {
+      "id": "seed-214",
+      "amount": 73.49,
+      "category": "shopping",
+      "date": "2025-08-11",
+      "description": "Load test expense 214"
+    },
+    {
+      "id": "seed-215",
+      "amount": 7.01,
+      "category": "other",
+      "date": "2025-08-01",
+      "description": "Load test expense 215"
+    },
+    {
+      "id": "seed-216",
+      "amount": 72.4,
+      "category": "other",
+      "date": "2025-07-20",
+      "description": "Load test expense 216"
+    },
+    {
+      "id": "seed-217",
+      "amount": 326.29,
+      "category": "food",
+      "date": "2025-08-03",
+      "description": "Load test expense 217"
+    },
+    {
+      "id": "seed-218",
+      "amount": 57.78,
+      "category": "health",
+      "date": "2025-07-17",
+      "description": "Load test expense 218"
+    },
+    {
+      "id": "seed-219",
+      "amount": 388.67,
+      "category": "health",
+      "date": "2025-07-18",
+      "description": "Load test expense 219"
+    },
+    {
+      "id": "seed-220",
+      "amount": 151.86,
+      "category": "shopping",
+      "date": "2025-08-02",
+      "description": "Load test expense 220"
+    },
+    {
+      "id": "seed-221",
+      "amount": 407.56,
+      "category": "shopping",
+      "date": "2025-07-31",
+      "description": "Load test expense 221"
+    },
+    {
+      "id": "seed-222",
+      "amount": 499.36,
+      "category": "bills",
+      "date": "2025-07-26",
+      "description": "Load test expense 222"
+    },
+    {
+      "id": "seed-223",
+      "amount": 284.71,
+      "category": "entertainment",
+      "date": "2025-08-05",
+      "description": "Load test expense 223"
+    },
+    {
+      "id": "seed-224",
+      "amount": 470.23,
+      "category": "food",
+      "date": "2025-08-14",
+      "description": "Load test expense 224"
+    },
+    {
+      "id": "seed-225",
+      "amount": 429.12,
+      "category": "entertainment",
+      "date": "2025-08-12",
+      "description": "Load test expense 225"
+    },
+    {
+      "id": "seed-226",
+      "amount": 85.89,
+      "category": "entertainment",
+      "date": "2025-07-18",
+      "description": "Load test expense 226"
+    },
+    {
+      "id": "seed-227",
+      "amount": 311.84,
+      "category": "shopping",
+      "date": "2025-08-13",
+      "description": "Load test expense 227"
+    },
+    {
+      "id": "seed-228",
+      "amount": 112.74,
+      "category": "entertainment",
+      "date": "2025-07-17",
+      "description": "Load test expense 228"
+    },
+    {
+      "id": "seed-229",
+      "amount": 459.31,
+      "category": "entertainment",
+      "date": "2025-08-03",
+      "description": "Load test expense 229"
+    },
+    {
+      "id": "seed-230",
+      "amount": 317.64,
+      "category": "food",
+      "date": "2025-07-26",
+      "description": "Load test expense 230"
+    },
+    {
+      "id": "seed-231",
+      "amount": 467.85,
+      "category": "food",
+      "date": "2025-08-08",
+      "description": "Load test expense 231"
+    },
+    {
+      "id": "seed-232",
+      "amount": 255.5,
+      "category": "bills",
+      "date": "2025-07-23",
+      "description": "Load test expense 232"
+    },
+    {
+      "id": "seed-233",
+      "amount": 99.12,
+      "category": "health",
+      "date": "2025-07-25",
+      "description": "Load test expense 233"
+    },
+    {
+      "id": "seed-234",
+      "amount": 70.95,
+      "category": "bills",
+      "date": "2025-07-30",
+      "description": "Load test expense 234"
+    },
+    {
+      "id": "seed-235",
+      "amount": 285.35,
+      "category": "shopping",
+      "date": "2025-07-25",
+      "description": "Load test expense 235"
+    },
+    {
+      "id": "seed-236",
+      "amount": 95.79,
+      "category": "shopping",
+      "date": "2025-08-06",
+      "description": "Load test expense 236"
+    },
+    {
+      "id": "seed-237",
+      "amount": 412.38,
+      "category": "bills",
+      "date": "2025-07-29",
+      "description": "Load test expense 237"
+    },
+    {
+      "id": "seed-238",
+      "amount": 466.6,
+      "category": "entertainment",
+      "date": "2025-08-07",
+      "description": "Load test expense 238"
+    },
+    {
+      "id": "seed-239",
+      "amount": 373.83,
+      "category": "bills",
+      "date": "2025-07-22",
+      "description": "Load test expense 239"
+    },
+    {
+      "id": "seed-240",
+      "amount": 62.09,
+      "category": "bills",
+      "date": "2025-07-16",
+      "description": "Load test expense 240"
+    },
+    {
+      "id": "seed-241",
+      "amount": 22.42,
+      "category": "food",
+      "date": "2025-08-08",
+      "description": "Load test expense 241"
+    },
+    {
+      "id": "seed-242",
+      "amount": 212.53,
+      "category": "shopping",
+      "date": "2025-07-18",
+      "description": "Load test expense 242"
+    },
+    {
+      "id": "seed-243",
+      "amount": 238.2,
+      "category": "food",
+      "date": "2025-07-17",
+      "description": "Load test expense 243"
+    },
+    {
+      "id": "seed-244",
+      "amount": 215.41,
+      "category": "transport",
+      "date": "2025-08-01",
+      "description": "Load test expense 244"
+    },
+    {
+      "id": "seed-245",
+      "amount": 416.14,
+      "category": "food",
+      "date": "2025-07-16",
+      "description": "Load test expense 245"
+    },
+    {
+      "id": "seed-246",
+      "amount": 67.87,
+      "category": "entertainment",
+      "date": "2025-08-06",
+      "description": "Load test expense 246"
+    },
+    {
+      "id": "seed-247",
+      "amount": 459.34,
+      "category": "entertainment",
+      "date": "2025-07-30",
+      "description": "Load test expense 247"
+    },
+    {
+      "id": "seed-248",
+      "amount": 296.1,
+      "category": "transport",
+      "date": "2025-07-16",
+      "description": "Load test expense 248"
+    },
+    {
+      "id": "seed-249",
+      "amount": 207.93,
+      "category": "shopping",
+      "date": "2025-08-03",
+      "description": "Load test expense 249"
+    },
+    {
+      "id": "seed-250",
+      "amount": 101.57,
+      "category": "bills",
+      "date": "2025-07-26",
+      "description": "Load test expense 250"
+    },
+    {
+      "id": "seed-251",
+      "amount": 355.44,
+      "category": "food",
+      "date": "2025-07-19",
+      "description": "Load test expense 251"
+    },
+    {
+      "id": "seed-252",
+      "amount": 136.01,
+      "category": "other",
+      "date": "2025-08-03",
+      "description": "Load test expense 252"
+    },
+    {
+      "id": "seed-253",
+      "amount": 53.7,
+      "category": "bills",
+      "date": "2025-07-28",
+      "description": "Load test expense 253"
+    },
+    {
+      "id": "seed-254",
+      "amount": 300.99,
+      "category": "other",
+      "date": "2025-07-30",
+      "description": "Load test expense 254"
+    },
+    {
+      "id": "seed-255",
+      "amount": 171.6,
+      "category": "other",
+      "date": "2025-08-06",
+      "description": "Load test expense 255"
+    },
+    {
+      "id": "seed-256",
+      "amount": 393.17,
+      "category": "transport",
+      "date": "2025-07-27",
+      "description": "Load test expense 256"
+    },
+    {
+      "id": "seed-257",
+      "amount": 360.7,
+      "category": "health",
+      "date": "2025-07-31",
+      "description": "Load test expense 257"
+    },
+    {
+      "id": "seed-258",
+      "amount": 349.48,
+      "category": "health",
+      "date": "2025-08-06",
+      "description": "Load test expense 258"
+    },
+    {
+      "id": "seed-259",
+      "amount": 39.15,
+      "category": "health",
+      "date": "2025-08-01",
+      "description": "Load test expense 259"
+    },
+    {
+      "id": "seed-260",
+      "amount": 172.34,
+      "category": "shopping",
+      "date": "2025-08-05",
+      "description": "Load test expense 260"
+    },
+    {
+      "id": "seed-261",
+      "amount": 300.53,
+      "category": "entertainment",
+      "date": "2025-07-16",
+      "description": "Load test expense 261"
+    },
+    {
+      "id": "seed-262",
+      "amount": 86.05,
+      "category": "other",
+      "date": "2025-08-03",
+      "description": "Load test expense 262"
+    },
+    {
+      "id": "seed-263",
+      "amount": 92.16,
+      "category": "transport",
+      "date": "2025-07-18",
+      "description": "Load test expense 263"
+    },
+    {
+      "id": "seed-264",
+      "amount": 137.47,
+      "category": "entertainment",
+      "date": "2025-07-17",
+      "description": "Load test expense 264"
+    },
+    {
+      "id": "seed-265",
+      "amount": 246.16,
+      "category": "bills",
+      "date": "2025-07-23",
+      "description": "Load test expense 265"
+    },
+    {
+      "id": "seed-266",
+      "amount": 241.37,
+      "category": "other",
+      "date": "2025-08-05",
+      "description": "Load test expense 266"
+    },
+    {
+      "id": "seed-267",
+      "amount": 417.17,
+      "category": "shopping",
+      "date": "2025-07-25",
+      "description": "Load test expense 267"
+    },
+    {
+      "id": "seed-268",
+      "amount": 191.1,
+      "category": "other",
+      "date": "2025-08-10",
+      "description": "Load test expense 268"
+    },
+    {
+      "id": "seed-269",
+      "amount": 76.08,
+      "category": "food",
+      "date": "2025-08-04",
+      "description": "Load test expense 269"
+    },
+    {
+      "id": "seed-270",
+      "amount": 397.71,
+      "category": "health",
+      "date": "2025-07-16",
+      "description": "Load test expense 270"
+    },
+    {
+      "id": "seed-271",
+      "amount": 82.28,
+      "category": "other",
+      "date": "2025-07-24",
+      "description": "Load test expense 271"
+    },
+    {
+      "id": "seed-272",
+      "amount": 117.05,
+      "category": "food",
+      "date": "2025-08-02",
+      "description": "Load test expense 272"
+    },
+    {
+      "id": "seed-273",
+      "amount": 425.88,
+      "category": "bills",
+      "date": "2025-07-24",
+      "description": "Load test expense 273"
+    },
+    {
+      "id": "seed-274",
+      "amount": 294.75,
+      "category": "health",
+      "date": "2025-08-05",
+      "description": "Load test expense 274"
+    },
+    {
+      "id": "seed-275",
+      "amount": 56.85,
+      "category": "entertainment",
+      "date": "2025-07-19",
+      "description": "Load test expense 275"
+    },
+    {
+      "id": "seed-276",
+      "amount": 439.74,
+      "category": "entertainment",
+      "date": "2025-07-31",
+      "description": "Load test expense 276"
+    },
+    {
+      "id": "seed-277",
+      "amount": 311.97,
+      "category": "shopping",
+      "date": "2025-08-04",
+      "description": "Load test expense 277"
+    },
+    {
+      "id": "seed-278",
+      "amount": 498.17,
+      "category": "food",
+      "date": "2025-08-02",
+      "description": "Load test expense 278"
+    },
+    {
+      "id": "seed-279",
+      "amount": 101.12,
+      "category": "other",
+      "date": "2025-07-29",
+      "description": "Load test expense 279"
+    },
+    {
+      "id": "seed-280",
+      "amount": 417.95,
+      "category": "transport",
+      "date": "2025-08-09",
+      "description": "Load test expense 280"
+    },
+    {
+      "id": "seed-281",
+      "amount": 487.17,
+      "category": "shopping",
+      "date": "2025-08-07",
+      "description": "Load test expense 281"
+    },
+    {
+      "id": "seed-282",
+      "amount": 161.85,
+      "category": "transport",
+      "date": "2025-08-13",
+      "description": "Load test expense 282"
+    },
+    {
+      "id": "seed-283",
+      "amount": 176.7,
+      "category": "other",
+      "date": "2025-07-29",
+      "description": "Load test expense 283"
+    },
+    {
+      "id": "seed-284",
+      "amount": 424.53,
+      "category": "food",
+      "date": "2025-07-27",
+      "description": "Load test expense 284"
+    },
+    {
+      "id": "seed-285",
+      "amount": 270.04,
+      "category": "health",
+      "date": "2025-08-10",
+      "description": "Load test expense 285"
+    },
+    {
+      "id": "seed-286",
+      "amount": 112.4,
+      "category": "food",
+      "date": "2025-07-19",
+      "description": "Load test expense 286"
+    },
+    {
+      "id": "seed-287",
+      "amount": 435.27,
+      "category": "shopping",
+      "date": "2025-07-26",
+      "description": "Load test expense 287"
+    },
+    {
+      "id": "seed-288",
+      "amount": 286.91,
+      "category": "food",
+      "date": "2025-07-16",
+      "description": "Load test expense 288"
+    },
+    {
+      "id": "seed-289",
+      "amount": 183.09,
+      "category": "health",
+      "date": "2025-07-29",
+      "description": "Load test expense 289"
+    },
+    {
+      "id": "seed-290",
+      "amount": 210.15,
+      "category": "health",
+      "date": "2025-07-31",
+      "description": "Load test expense 290"
+    },
+    {
+      "id": "seed-291",
+      "amount": 22.65,
+      "category": "shopping",
+      "date": "2025-08-09",
+      "description": "Load test expense 291"
+    },
+    {
+      "id": "seed-292",
+      "amount": 375.27,
+      "category": "food",
+      "date": "2025-07-16",
+      "description": "Load test expense 292"
+    },
+    {
+      "id": "seed-293",
+      "amount": 97.54,
+      "category": "transport",
+      "date": "2025-07-23",
+      "description": "Load test expense 293"
+    },
+    {
+      "id": "seed-294",
+      "amount": 188.96,
+      "category": "transport",
+      "date": "2025-07-28",
+      "description": "Load test expense 294"
+    },
+    {
+      "id": "seed-295",
+      "amount": 165.82,
+      "category": "transport",
+      "date": "2025-07-18",
+      "description": "Load test expense 295"
+    },
+    {
+      "id": "seed-296",
+      "amount": 239.5,
+      "category": "other",
+      "date": "2025-07-16",
+      "description": "Load test expense 296"
+    },
+    {
+      "id": "seed-297",
+      "amount": 219.05,
+      "category": "transport",
+      "date": "2025-07-28",
+      "description": "Load test expense 297"
+    },
+    {
+      "id": "seed-298",
+      "amount": 18.26,
+      "category": "entertainment",
+      "date": "2025-08-05",
+      "description": "Load test expense 298"
+    },
+    {
+      "id": "seed-299",
+      "amount": 213.5,
+      "category": "shopping",
+      "date": "2025-08-11",
+      "description": "Load test expense 299"
+    },
+    {
+      "id": "seed-300",
+      "amount": 209.14,
+      "category": "shopping",
+      "date": "2025-08-08",
+      "description": "Load test expense 300"
+    }
+  ]
+}
