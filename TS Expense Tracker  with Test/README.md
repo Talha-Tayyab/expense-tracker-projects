@@ -1,7 +1,16 @@
 # Expense Tracker (TypeScript)
 
 A lightweight, browser-based expense tracker built with **TypeScript + HTML/CSS**. Add expenses, filter/search, manage categories (add/edit/delete), set monthly budgets, and view charts via **Chart.js**. No backend required.
-
+> ## 🔴 Important (First-Time Use / Reviewers)
+> Before testing the app, open your browser's **Console** and run:
+>
+> ```js
+> localStorage.clear();
+> ```
+>
+> This clears any previously saved data so the app starts clean.
+>
+> 
 > ### 🔴 For Reviewers
 > On **browser refresh**, the app **resets runtime data** (expenses + budgets) so reviewers always start clean.  
 > You can disable this behavior any time (see **Disable auto-reset on refresh**).
